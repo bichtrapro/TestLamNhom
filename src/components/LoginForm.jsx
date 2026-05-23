@@ -9,6 +9,7 @@ import ModalConfirm from './ModalConfirm';
 function LoginForm() {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState(''); 
+const [count,setCount] = useState('');
     // Lấy navigate từ react-router-dom để chuyển hướng sau khi đăng nhập thành công
     const navigate = useNavigate();
 
